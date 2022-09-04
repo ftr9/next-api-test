@@ -1,0 +1,26 @@
+{
+  "name": "solidauthenticatin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4050",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.4",
+    "next": "12.2.5",
+    "next-connect": "^0.13.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "trouter": "^3.2.0",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5"
+  }
+}
