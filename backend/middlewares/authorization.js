@@ -8,7 +8,7 @@ const authorizationMiddleware = catchAsync(async (req, res, next) => {
   //check if authorization headers is present
   if (
     !req.headers.authorization &&
-    !req.headers.authorization.includes('bearer')
+    !req.headers?.authorization?.includes('bearer')
   ) {
     return next(new AppError('user is not authorized...', 401));
   }
